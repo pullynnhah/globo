@@ -122,10 +122,9 @@ h1 {
 }
 
 .g1-news article {
-  width: 193px;
 }
-
 .g1-news img {
+  width: 193px;
   border-radius: 12px;
   margin-bottom: 11px;
 }
@@ -143,7 +142,6 @@ h2 {
 }
 
 .lead {
-  width: 191px;
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
@@ -151,9 +149,36 @@ h2 {
   margin-bottom: 5px;
 }
 
+.g1-news lead {
+  padding-right: 2px;
+}
 .quote {
   font-size: 14px;
   line-height: 19px;
   letter-spacing: -0.048em;
   margin-bottom: 9px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ge-news {
+  border-left: 1px solid #ebedef;
+  border-right: 1px solid #ebedef;
+  margin: 0 36px;
+}
+
+.ge-news article {
+  padding: 0 35px;
+}
+
+.news img {
+  width: 240px;
+  border-radius: 12px;
+}
+.ge-news h2 {
+  color: #16ae54;
 }
