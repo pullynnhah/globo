@@ -198,7 +198,7 @@ h2 {
   color: #ec8006;
 }
 
-@media (max-width: 1249px) {
+@media (max-width: 900px) {
   body {
     font-family: "Open Sans", sans-serif;
   }
