@@ -12,9 +12,10 @@
   </head>
   <body>
     <header>
-      <div class="picture">
+      <picture>
+        <source media="(max-width: 1249px)" srcset="./assets/logo-mobile.svg" />
         <img src="./assets/logo-desktop.svg" alt="logo da globo" />
-      </div>
+      </picture>
       <nav>
         <ul>
           <li><a href="https://www.globo.com/" target="_blank">g1</a></li>
@@ -29,6 +30,13 @@
           <li><a href="https://www.globo.com/" target="_blank">gshow</a></li>
           <li><a href="https://www.globo.com/" target="_blank">quem</a></li>
           <li><a href="https://www.globo.com/" target="_blank">receitas</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://www.globo.com/" target="_blank">g1</a></li>
+          <li><a href="https://www.globo.com/" target="_blank">ge</a></li>
+          <li><a href="https://www.globo.com/" target="_blank">gshow</a></li>
+          <li><a href="https://www.globo.com/" target="_blank">tech</a></li>
+          <li><a href="https://www.globo.com/" target="_blank">vídeos</a></li>
         </ul>
       </nav>
     </header>
@@ -56,7 +64,7 @@
           </p>
         </div>
 
-        <div class="g1-news">
+        <div class="g1-news g1-news-img">
           <article>
             <a href="#">
               <img
@@ -196,8 +204,10 @@
             <p class="lead">
               Angel cruza a passarela poderosa; reveja desfiles
             </p>
-            <p class="quote">Blanche terá dois relacionamentos</p>
-            <p class="quote">Gabriel viverá sadomasoquista</p>
+            <div class="quotes">
+              <p class="quote multi-quote">Blanche terá dois relacionamentos</p>
+              <p class="quote multi-quote">Gabriel viverá sadomasoquista</p>
+            </div>
           </a>
         </article>
 
