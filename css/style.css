@@ -2,6 +2,7 @@
 
 body {
   font-family: "Encode Sans", sans-serif;
+  color: #2f3134;
 }
 
 header {
@@ -86,4 +87,52 @@ nav a:hover {
 
 .receitas {
   color: #a81d83;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 36px 0 72px;
+}
+
+.main-news {
+  width: 626px;
+}
+
+h1 {
+  color: #c4160c;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  margin-bottom: 29px;
+}
+
+.headlines p {
+  color: #303134;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  margin-top: 7px;
+}
+
+.ge-news {
+  width: 310px;
+  padding: 0 35px;
+  margin: 0 36px;
+  border-left: 1px solid #ebedef;
+  border-right: 1px solid #ebedef;
+
+  /* FIXME: remove all code below after implementing it. */
+  background-color: pink;
+  height: 600px;
+}
+
+.gshow-news {
+  width: 240px;
+
+  /* FIXME: remove all code below after implementing it. */
+  background-color: violet;
+  height: 600px;
 }
